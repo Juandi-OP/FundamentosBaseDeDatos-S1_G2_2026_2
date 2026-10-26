@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99F884E6-F21E-55EB-C96E-E03B7227E85A" name="Solicitud ">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:47:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="solicitud_id" id="7C981D46-404F-0383-715B-DBB70E33E517">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:47:15 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="2ACA601E-02A1-8F04-8E79-747B1D9F2AEB">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:47:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_solicitud" id="C35F0D60-54C4-E91C-238C-493B0573D594">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:47:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parada_id" id="87957FCD-EE4F-DE49-AFA1-8E4D7D2B5384">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:51:05 UTC</createdTime>
+<generatorID>C66738A0-E56A-6F88-7DAB-544266ECFCA7</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<referedAttribute>D4E5EE89-3020-51BF-00E5-CD78CCCE6454</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="studnet_id" id="AF087707-7A6F-E9C7-4810-9ACBF48894EE">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:51:38 UTC</createdTime>
+<generatorID>BA63A02B-B287-E8BC-A690-5BDD93FF30CE</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<referedAttribute>D4261396-860E-5F84-164A-554B1C2DD184</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="100A03E1-3D36-64B8-3BF3-B2FC2D19E4D0" name="Solicitud PK">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:47:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C981D46-404F-0383-715B-DBB70E33E517</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

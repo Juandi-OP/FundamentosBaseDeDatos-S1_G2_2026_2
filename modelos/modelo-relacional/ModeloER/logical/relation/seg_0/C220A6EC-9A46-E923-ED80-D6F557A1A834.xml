@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Destino" directorySegmentName="seg_0" id="C220A6EC-9A46-E923-ED80-D6F557A1A834">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:35:22 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<sourcePk>20129CA1-6139-0ED5-175A-AC439B2AEB76</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6F2832B-8B55-23D6-A1BD-DD007BB2210C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1708E98C-1760-1CFD-51FE-5F5601AA0006</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

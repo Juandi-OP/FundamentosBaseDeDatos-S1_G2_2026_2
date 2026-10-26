@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6F2832B-8B55-23D6-A1BD-DD007BB2210C" name="Direccion">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:18:45 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="direccion_id " id="C785FCF2-4A9E-5224-6DEB-CC452D6A294A">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:31:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referencia" id="DC2C45F2-F097-908F-8FFA-C2CEB6B4DD4A">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:31:19 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localidad_id" id="7479AB70-0CAE-B039-C1DB-B6A4B4B9B442">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:41:20 UTC</createdTime>
+<generatorID>7EEFA4A6-D096-74C2-0B11-D998DF528840</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>58327AB1-4EEE-D0BE-239C-38BDF24757B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20129CA1-6139-0ED5-175A-AC439B2AEB76" name="Direccion PK">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:31:18 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C785FCF2-4A9E-5224-6DEB-CC452D6A294A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

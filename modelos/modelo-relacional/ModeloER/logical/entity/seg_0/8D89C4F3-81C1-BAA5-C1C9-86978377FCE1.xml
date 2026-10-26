@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D89C4F3-81C1-BAA5-C1C9-86978377FCE1" name="Parada ">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:42:01 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="parada_id" id="D4E5EE89-3020-51BF-00E5-CD78CCCE6454">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:42:10 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ordern" id="65981632-C287-3816-C139-3B7D4682BE07">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:42:26 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_id" id="59DF7299-CC0B-27AC-C236-E7DDBD9718BB">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:43:23 UTC</createdTime>
+<generatorID>11B3F61F-069C-9BF2-73EB-013490FBFF19</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<referedAttribute>DF3A156A-8604-9FB6-C380-2CD4CCE00E9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_id " id="991E1CFE-ED81-5037-CC99-3278FADAC765">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:56:06 UTC</createdTime>
+<generatorID>35219EE9-BBDA-0FB9-75C2-756DD81A30A0</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<referedAttribute>C785FCF2-4A9E-5224-6DEB-CC452D6A294A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC6B229A-95D4-02FF-43A3-8C74D531DDAB" name="Parada PK">
+<createdBy>Jeronimo</createdBy>
+<createdTime>2026-09-12 17:43:00 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="60FB6396-3F6B-0ED6-B6A4-A6363F4DC301" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4E5EE89-3020-51BF-00E5-CD78CCCE6454</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
